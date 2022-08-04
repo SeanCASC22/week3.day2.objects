@@ -74,6 +74,39 @@ header{
     align-items: center;
 }
 
+input{
+    display:inline-flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.CustomHeroes{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ToCentralize{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.heroes{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroes img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 10%;
+    height: 10%;
+}
+
 /* END OF PREMADE */
 
 
